@@ -1,8 +1,8 @@
 # 27
-public class StringDemo{
-   public static void main(String args[]){
-      char[] helloArray = { 'r', 'u', 'n', 'o', 'o', 'b'};
-      String helloString = new String(helloArray);  
-      System.out.println( helloString );
+public class StringDemo {
+    public static void main(String args[]) {
+        String site = "www.runoob.com";
+        int len = site.length();
+        System.out.println( "菜鸟教程网址长度 : " + len );
    }
 }
